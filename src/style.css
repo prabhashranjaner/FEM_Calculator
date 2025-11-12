@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+:root {
+  &,
+  &[data-theme="1"] {
+    --col-bg-main: hsl(222, 26%, 31%);
+    --col-bg-toggle: hsl(223, 31%, 20%);
+    --col-bg-keypad: hsl(223, 31%, 20%);
+    --col-bg-screen: hsl(224, 36%, 15%);
+
+    --col-toggle: hsl(6, 63%, 50%);
+    --col-key-equal: hsl(6, 63%, 50%);
+    --col-sd-equal: hsl(6, 70%, 34%);
+
+    --col-key-del: hsl(225, 21%, 49%);
+    --col-sd-del: hsl(224, 28%, 35%);
+
+    --col-key-main: hsl(0, 0%, 90%);
+    --col-sd-main: hsl(28, 16%, 65%);
+
+    --col-text-dark: hsl(221, 14%, 31%);
+    --col-text-light: hsl(0, 100%, 100%);
+    --col-text-main: hsl(0, 100%, 100%);
+  }
+
+  &[data-theme="2"] {
+    --col-bg-main: hsl(0, 0%, 90%);
+    --col-bg-toggle: hsl(0, 5%, 81%);
+    --col-bg-keypad: hsl(0, 5%, 81%);
+    --col-bg-screen: hsl(0, 0%, 93%);
+
+    --col-toggle: hsl(25, 98%, 40%);
+    --col-key-equal: hsl(25, 98%, 40%);
+    --col-sd-equal: hsl(25, 99%, 27%);
+
+    --col-key-del: hsl(185, 42%, 37%);
+    --col-sd-del: hsl(185, 58%, 25%);
+
+    --col-key-main: hsl(0, 0%, 90%);
+    --col-sd-main: hsl(35, 11%, 61%);
+
+    --col-text-dark: hsl(60, 10%, 19%);
+    --col-text-light: hsl(0, 100%, 100%);
+    --col-text-main: hsl(60, 10%, 19%);
+  }
+
+  &[data-theme="3"] {
+    --col-bg-main: hsl(268, 75%, 9%);
+    --col-bg-toggle: hsl(268, 71%, 12%);
+    --col-bg-keypad: hsl(268, 71%, 12%);
+    --col-bg-screen: hsl(268, 71%, 12%);
+
+    --col-toggle: hsl(176, 100%, 44%);
+    --col-key-equal: hsl(176, 100%, 44%);
+    --col-sd-equal: hsl(176, 100%, 44%);
+
+    --col-key-del: hsl(281, 89%, 26%);
+    --col-sd-del: hsl(285, 91%, 52%);
+
+    --col-key-main: hsl(268, 47%, 21%);
+    --col-sd-main: hsl(290, 70%, 36%);
+
+    --col-text-dark: hsl(52, 100%, 62%);
+    --col-text-light: hsl(0, 100%, 100%);
+    --col-text-main: hsl(52, 100%, 62%);
+  }
+
+  --rounded: 16px;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  background-color: var(--col-bg-main);
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 32px;
+  display: family;
+  align-items: center;
+  justify-content: center;
+}
